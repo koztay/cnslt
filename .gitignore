@@ -69,13 +69,13 @@ node_modules/
 
 # User-uploaded media
 static_in_env/
-bootstrap_template/
-coming-soon-dark-night/
-deploy/
-imajlar/
-logolar/
 
+#templating files
+templating_files/
+
+#deploy folder
+deploy/
 
 #core-os / cloud config
-cloud-config.yml
+core-os-cloud-config.yml
 create_coreos_droplet.sh
