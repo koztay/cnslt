@@ -75,6 +75,7 @@ templating_files/
 
 #deploy folder
 deploy/
+postgres_backups/
 
 #core-os / cloud config
 core-os-cloud-config.yml

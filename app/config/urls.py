@@ -25,6 +25,7 @@ urlpatterns = [
     # url(r'^pages/', include('django.contrib.flatpages.urls')),  # for flatpages urls
     url(r'^pages/hakkimizda/$', views.flatpage, {'url': '/hakkimizda/'}, name='hakkimizda'),
     url(r'^pages/hizmetlerimiz/$', views.flatpage, {'url': '/hizmetlerimiz/'}, name='hizmetlerimiz'),
+    url(r'^iprestrict/', include('iprestrict.urls', namespace='iprestrict')),
 
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
 
