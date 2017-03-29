@@ -75,7 +75,12 @@ templating_files/
 
 #deploy folder
 deploy/
+
+#database_backups
 postgres_backups/
+
+#GeoIP
+GeoIP/
 
 #core-os / cloud config
 core-os-cloud-config.yml
