@@ -103,8 +103,8 @@ INSTALLED_APPS += ['gunicorn', 'templatetag_handlebars', 'iprestrict', ]
 # EMAIL
 # ------------------------------------------------------------------------------
 DEFAULT_FROM_EMAIL = env('DJANGO_DEFAULT_FROM_EMAIL',
-                         default='karnas-cookiecutter <noreply@karnas.com.tr>')
-EMAIL_SUBJECT_PREFIX = env('DJANGO_EMAIL_SUBJECT_PREFIX', default='[karnas-cookiecutter]')
+                         default='consultailetisim <noreply@consultailetisim.com>')
+EMAIL_SUBJECT_PREFIX = env('DJANGO_EMAIL_SUBJECT_PREFIX', default='[consultailetisim]')
 SERVER_EMAIL = env('DJANGO_SERVER_EMAIL', default=DEFAULT_FROM_EMAIL)
 
 # Anymail with Mailgun
