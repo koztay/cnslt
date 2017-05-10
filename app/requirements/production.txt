@@ -21,5 +21,5 @@ django-anymail==0.9
 
 
 # IP Bloklamak için gerekli
-django-iprestrict[geoip]
+django-iprestrict[geoip]==1.2.0
 
