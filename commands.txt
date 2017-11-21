@@ -1,0 +1,2 @@
+# coreos manually trigger update
+$ update_engine_client -check_for_update

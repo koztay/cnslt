@@ -8,6 +8,7 @@ volumes:
 
 services:
   postgres:
+    restart: always
     build: ./app/compose/postgres
     volumes:
       - postgres_data:/var/lib/postgresql/data
@@ -15,6 +16,7 @@ services:
     env_file: .env
 
   django:
+    restart: always
     build:
       context: .
       dockerfile: ./app/compose/django/Dockerfile
@@ -31,6 +33,7 @@ services:
     env_file: .env
 
   nginx:
+    restart: always
     build: ./app/compose/nginx
     depends_on:
       - django
