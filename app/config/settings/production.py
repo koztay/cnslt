@@ -203,7 +203,7 @@ ADMIN_URL = env('DJANGO_ADMIN_URL')
 # Your production stuff: Below this line define 3rd party library settings
 # ------------------------------------------------------------------------------
 # IPRESTRICT_IGNORE_PROXY_HEADER = True  #Aşağıdakini de ekleyince buna gerek kalmayabilir.
-IPRESTRICT_TRUSTED_PROXIES = ['172.19.0.4', ]
+IPRESTRICT_TRUSTED_PROXIES = ["172.19.0.2"]
 GEOIP_PATH = str(ROOT_DIR.path('GeoIP'))
 MIDDLEWARE += ['iprestrict.middleware.IPRestrictMiddleware', ]  # Generally, you will want this middleware to run
 # early, before your session, auth etc. middlewares. But in my case I will not be freak for that.

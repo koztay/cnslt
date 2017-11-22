@@ -28,8 +28,8 @@ $(document).ready(function(){
 
         map = new GMaps({
             el: "#map",
-            lat: 45.494447,
-            lng: -73.5697587,
+            lat: 41.0835501,
+            lng: 28.982545500000015,
             scrollwheel: false,
             zoom: 14,
             zoomControl: true,
