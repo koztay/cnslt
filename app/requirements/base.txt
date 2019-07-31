@@ -34,7 +34,7 @@ psycopg2==2.7
 awesome-slugify==1.6.5
 
 # Time zones support
-pytz==2016.10
+pytz==2019.2
 
 # Redis support
 # django-redis==4.7.0
